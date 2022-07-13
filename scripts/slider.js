@@ -1,4 +1,4 @@
-$(document).ready(function(slickSlide){
+$(window).on('load',function(slickSlide){
     $('.mockups').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
