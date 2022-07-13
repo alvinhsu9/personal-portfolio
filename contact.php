@@ -99,7 +99,7 @@ if (array_key_exists('email', $_POST)) {
 <header class="header">
         <div class="img-wrap">
             <a class="img-link" href="index.html" title="Home Page">
-                <img class="img" src="images/my_logo/logo-white.svg"" alt="Personal Logo">
+                <img class="img" src="images/my_logo/logo-white.svg" alt="Personal Logo">
             </a>
         </div>
         <button class="gn-trigger">
