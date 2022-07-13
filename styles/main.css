@@ -527,16 +527,16 @@ main {
     display: flex;
     position:relative;
     justify-content: center;
-    width: 65vw; 
-    height: 250px;
+    width: 60vw; 
+    height: 200px;
     margin-top: 20px;
     border: solid #E6E6E6 1px;
     border-radius: 25px;
 }
 
 .featured img {
-    width: 50%;
-    height: auto;
+    width: auto;
+    height: 60%;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -752,15 +752,14 @@ footer {
         top: 110px;
     }
     .featured {
-        width: 60vw;
+        width: 50vw;
         height: 250px;
     }
     .featured img {
-        width: 45%;
+        height: 65%;
     }
     .featured .fable-logo {
-        width: auto;
-        height: 65%;
+        height: 60%;
     }
     footer .copyright {
         font-size: 20px;
@@ -851,8 +850,8 @@ footer {
         width: 25px;
     }
     .featured {
-        width: 50vw;
-        height: 350px;
+        width: 45vw;
+        height: 300px;
     }
 }
 
@@ -1002,11 +1001,10 @@ footer {
     }
 
     .featured img {
-        width: 75%;
-        transition: opacity 1s;
+        height: 45%;
     }
     .featured .fable-logo {
-        height: 65%;
+        height: 50%;
     }
     .socials .linkedin:hover {
         background-image: url(/images/socials/linkedin-hover.svg);
@@ -1078,6 +1076,12 @@ footer {
         width: 25vw; 
         height: 350px;
     }
+    .featured img {
+        height: 60%;
+    }
+    .featured .fable-logo {
+        height: 60%;
+    }
 
     footer .socials {
         margin: 0 200px;
@@ -1102,5 +1106,13 @@ footer {
     .tagline-text {
         flex-basis: 60%;
         max-width: 60%;
+    }
+}
+
+
+@media (min-width: 2000px) {
+    .featured {
+        width: 25vw; 
+        height: 400px;
     }
 }
