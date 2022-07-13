@@ -244,6 +244,9 @@ main {
         padding: 40px 20px 20px;
         align-items: flex-start;
     }
+    main {
+      margin-top: 20vh;
+  }
 }
 
 
@@ -263,4 +266,7 @@ main {
     .profile-pic img {
         width: 70%;
       }
+    main {
+        margin-top: 15vh;
+    }
 }
