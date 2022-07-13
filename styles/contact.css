@@ -91,6 +91,7 @@ form {
   transition: all .2s ease-in-out;
   border-radius: 15px;
   text-decoration: none;
+  margin: 0 auto;
 }
 
 .textarea {
@@ -217,10 +218,6 @@ main {
     .form input {
       width: 100%;
       min-width: 300px;
-    }
-
-    .form .send {
-      margin: 0;
     }
     .form .send:hover {
       background-color: #BF6B4B;
