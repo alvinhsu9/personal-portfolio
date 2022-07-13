@@ -695,28 +695,28 @@ footer .socials img {
 .socials .linkedin {
     background-image: url(/images/socials/linkedin.svg);
     background-repeat: no-repeat;
-    transition: background-image 0.5s, transform 0.5s;
+    transition: transform 0.5s;
     cursor: pointer;
 }
 
 .socials .instagram {
     background-image: url(/images/socials/instagram.svg);
     background-repeat: no-repeat;
-    transition: background-image 0.5s, transform 0.5s;
+    transition: transform 0.5s;
     cursor: pointer;
 }
 
 .socials .behance {
     background-image: url(/images/socials/behance.svg);
     background-repeat: no-repeat;
-    transition: background-image 0.5s, transform 0.5s;
+    transition: transform 0.5s;
     cursor: pointer;
 }
 
 .socials .dribbble {
     background-image: url(/images/socials/dribbble.svg);
     background-repeat: no-repeat;
-    transition: background-image 0.5s, transform 0.5s;
+    transition: transform 0.5s;
     cursor: pointer;
 }
 
@@ -1009,23 +1009,19 @@ footer {
         height: 65%;
     }
     .socials .linkedin:hover {
-        background-image: url(/images/socials/linkedin-hover.svg);
-        transform: scale(1.2);
+        transform: scale(1.25);
     }
     
     .socials .instagram:hover {
-        background-image: url(/images/socials/instagram-hover.svg);
-        transform: scale(1.2);
+        transform: scale(1.25);
     }
     
     .socials .behance:hover {
-        background-image: url(/images/socials/behance-hover.svg);
-        transform: scale(1.2);
+        transform: scale(1.25);
     }
     
     .socials .dribbble:hover {
-        background-image: url(/images/socials/dribbble-hover.svg);
-        transform: scale(1.2);
+        transform: scale(1.25);
     }
     .featured:hover {
         background-color: #E6E6E6;
