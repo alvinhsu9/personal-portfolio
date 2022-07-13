@@ -1,0 +1,31 @@
+.disclaimer {
+    width: 70vw;
+    margin: 100px auto;
+}
+
+.disclaimer h1 {
+    margin: 100px 0 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.disclaimer p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+@media (min-width: 992px) {
+    .disclaimer {
+        width: 60vw;
+    }
+    .disclaimer p {
+        line-height: 2;
+    }
+}
+
+@media (min-width: 1200px) {
+    .disclaimer p {
+        line-height: 3;
+    }
+}

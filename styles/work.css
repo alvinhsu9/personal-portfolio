@@ -1,0 +1,314 @@
+/*
+|------------------------------------------
+|  Global
+|------------------------------------------
+*/
+.work-showcase {
+    background-color: #E6E6E6;
+}
+
+.work-header {
+    text-align: center;
+    padding: 25px;
+    font-size: 25px;
+}
+
+.work-img {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/*
+|------------------------------------------
+|  Filters
+|------------------------------------------
+*/
+
+.filters {
+    display: flex;
+    align-items: center;   
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: white;
+    padding: 30px 0;
+    border-top: solid 1px #222725;
+    border-bottom: solid 1px #222725;
+    width: 100vw;
+    z-index: 999;
+}
+
+.filters li {
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 12px;  
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.button.is-checked {
+  color: #BF6B4B;
+}
+
+/*
+|------------------------------------------
+|  Work
+|------------------------------------------
+*/
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:10px auto 20px auto;
+    height: auto;
+    background-color: #E6E6E6;
+    margin-bottom: 20px;
+}
+
+.projects-container .work-project {
+    background-color: #E6E6E6;
+    border: solid 5px #191C33;
+    height: auto;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    color: #E6E6E6;
+    margin-top: 20px;
+    box-shadow: 5px 5px 8px #191c33ab;
+    cursor: pointer;
+}
+.work-project-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-container a {
+    text-decoration: none;
+    color: #E6E6E6;
+    width: auto;
+}
+
+.computer .work-img {
+    height: 150px;
+    width: 180px;
+}
+.work-img.play {
+    padding: 15px;
+}
+
+.projects-container .ah-photography-work {
+    background-color: #3a3939;
+}
+.projects-container .huxi-work {
+    background-color: #7ea9c9;
+}
+.projects-container .mexicookin-work {
+    background-color: #4a8b2c;
+}
+.projects-container .play-well-work {
+    background-color: rgba(199, 162, 0, 0.45);
+}
+.projects-container .cookiejar-work {
+    background-color: #a5c285;
+}
+.projects-container .tiny-cooking-work {
+    background-color: #d07270;
+}
+.projects-container .fable-work {
+    background-color: #361b03;
+}
+.projects-container .slam-work {
+    background-color: #ef5a2f;
+}
+.projects-container .mec-work {
+    background-color: white;
+}
+.projects-container .btat-work {
+    background-color: black;
+}
+
+.project-container h4 {
+    padding: 20px 0;
+    text-align: center;
+}
+.project-container p {
+    text-align: center;
+    font-size: 15px;
+    width: 60vw;
+}
+
+.project-descrip.mec-descrip  {
+    color: #191C33
+}
+.project-descrip.mec-descrip p {
+    color: #191C33
+}
+
+.work-project .work-img.mec-logo {
+    width: auto;
+}
+
+.work-project .work-img.fable-logo {
+    width: auto;
+}
+
+/*
+|------------------------------------------
+|  Media Queries
+|------------------------------------------
+*/
+
+
+@media (min-width: 442px) {
+    .filters li {
+        font-size: 15px;  
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 576px) {
+    .work-header {
+        font-size: 35px;
+    }
+    .computer .work-img {
+        height: 250px;
+        width: 300px;
+    }
+
+    img.work-img.tiny.lazy {
+        width: 310px;
+    }
+    .filters li {
+        font-size: 18px;  
+    }
+}
+
+
+@media (min-width: 768px) {
+    .computer .work-img {
+        height: 300px;
+    }
+    .filters li {
+        font-size: 20px;  
+        font-weight: 500;
+    }
+    img.work-img.tiny.lazy {
+        width: 400px;
+    }
+}
+
+@media (min-width: 992px) {
+    .projects-container .work-project {
+        width: 500px;
+    }
+    .filters li {
+        font-weight: 600;
+    }
+    .project-container .mobile {
+        transition: background-color 1s;
+        padding: 50px;
+    }
+    .project-container:hover {
+        background-color: #E6E6E6;
+    }
+    .project-container .mobile .project-descrip{
+        color: #191C33;
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        padding: 30px;
+        transition: opacity 1s;
+    }
+    .project-container:hover .project-descrip{
+        opacity: 1;
+    }
+    .project-container:hover img{
+        opacity: 0.1;
+    }
+    .project-container .computer {
+        transition: background-color 1s;
+        padding: 50px;
+    }
+    .project-container .computer:hover {
+        background-color: #E6E6E6;
+    }
+    .project-container .uiux:hover {
+        transition: background-color 1s;
+        padding: 50px;
+    }
+    .project-container .uiux:hover {
+        background-color: #E6E6E6;
+    }
+    .project-container .computer .project-descrip{
+        color: #191C33;
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        padding: 30px;
+        transition: opacity 1s;
+    }
+    .project-container:hover .project-descrip{
+        opacity: 1;
+    }
+    .project-container .computer img{
+        opacity: 1;
+        transition: opacity 1s;
+    }
+    .project-container:hover img{
+        opacity: 0.1;
+    }
+    .project-container p {
+        width: 40vw;
+    }
+    .filters li {
+        transition: color .2s;
+        transition: transform .2s;
+    }
+    .filters li:hover {
+        color: #BF6B4B;
+        transform: scale(1.12);
+    }
+    .project-descrip {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 30px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .work-header {
+        font-size: 40px;
+    }
+    .project-container {
+        padding: 20px;
+    }
+    .computer .work-img {
+        height: 250px;
+        width: 400px;
+    }
+    .project-container p {
+        width: 25vw;
+    }
+}
+
+

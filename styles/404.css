@@ -1,0 +1,182 @@
+/*
+|------------------------------------------
+|  Global styles
+|------------------------------------------
+*/
+
+body {
+    background: beige;
+    font-family: 'M PLUS 2', sans-serif;
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+}
+
+.area {
+    color: #BF6B4B;
+}
+
+
+.wrap {
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+}
+
+.left-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.worker {
+    width: 300px;
+}
+
+.worker {
+    order: 2;
+}
+
+.stop {
+    font-size: 30px;
+    order: -1;
+}
+
+.restricted {
+    font-size: 20px;
+    order: 1;
+}
+
+.message {
+    font-size: 18px;
+}
+
+.exit {
+    text-decoration: none;
+    margin: 0 auto;
+    width: 100px;
+    font-size: 20px;
+    order: 6;
+    color: #BF6B4B;
+}
+
+.security {
+    order: 3;
+}
+
+.leave {
+    order: 4;
+}
+
+/*
+|------------------------------------------
+|  Helper classes
+|------------------------------------------
+*/
+
+.spacing {
+    padding: 0 15px;
+    margin-top: 20px;  
+}
+
+/*
+|------------------------------------------
+|  Images
+|------------------------------------------
+*/
+
+.right-col {
+    display: none;
+}
+
+
+/*
+|------------------------------------------
+|  Meda Queries
+|------------------------------------------
+*/
+@media (min-width: 576px) {
+    .worker{
+        width: 500px;
+    }
+    .stop {
+        font-size: 35px;
+    }
+    .restricted {
+        font-size: 25px;
+    }
+    .message {
+        font-size: 20px;
+    }
+    .exit {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .worker{
+        width: 600px;
+    }
+    .stop {
+        font-size: 40px;
+    }
+    .restricted {
+        font-size: 30px;
+    }
+    .message {
+        font-size: 24px;
+    }
+    .spacing {
+        margin: 20px 0;
+    }
+    .return {
+        font-size: 30px;
+        margin: 20px 15px 20px;
+        order: 2;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .left-col {
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    .worker {
+        order: 5;
+    }
+    .spacing {
+        padding: 20px 15px;
+    }
+    .exit {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wrap {
+        display: flex;
+    }
+    .left-col img {
+        display: none;
+    }
+    .left-col {
+        flex-basis: 50%;
+        max-width: 50%;
+        justify-content: left;
+        padding-left: 80px;
+        text-align: left;
+    }  
+    .right-col {
+        flex-basis: 50%;
+        max-width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .spacing {
+        padding: 30px 15px;
+    }
+    .exit {
+        padding: 10px;
+    }
+}

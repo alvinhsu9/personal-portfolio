@@ -1,0 +1,22 @@
+.construction-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.construction-head .img-wrap a {
+    cursor:default;
+}
+
+.construction a {
+    color: #191C33;
+    text-decoration: underline;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+
+@media (min-width: 992px) {
+    .construction a:hover {
+        color: #BF6B4B;
+    }
+}
