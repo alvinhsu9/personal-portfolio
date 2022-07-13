@@ -276,8 +276,8 @@ main {
 
 .professional {
     position: relative;
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     background-color: #191C33;
     border-radius: 50%;
     margin: 0 auto 50px;
@@ -295,8 +295,8 @@ main {
 
 .professional-img {
     background-image: url(../images/home-page/home-img-solid.jpg);
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -751,6 +751,14 @@ footer {
     .gn {
         top: 110px;
     }
+    .professional {
+        height: 400px;
+        width: 400px;
+    }
+    .professional-img {
+        height: 400px;
+        width: 400px;
+    }
     .featured {
         width: 60vw;
         height: 250px;
@@ -803,7 +811,10 @@ footer {
         width: 300px;
     }
     .bnr h1 {
-        font-size: 45px;
+        font-size: 50px;
+    }
+    .scroller > span {
+        font-size: 23px;
     }
     .bnr h2 {
         font-size: 60px;
@@ -879,14 +890,6 @@ footer {
         flex-direction: row-reverse;
         width: 100vw;
     }
-    .professional {
-        height: 400px;
-        width: 400px;
-    }
-    .professional .professional-img {
-        height: 400px;
-        width: 400px;
-    }
     .bnr {
         margin-top: 50px;
     }
@@ -901,14 +904,13 @@ footer {
         margin-bottom: 50px;
     }
     .bnr h1 {
-        font-size: 55px;
+        font-size: 70px;
     }
     .scroller {
         width: 40vw;
     }
     .scroller > span {
         width: 40vw;
-        font-size: 23px;
     }
     .top-projects {
         flex-direction: row;
@@ -1057,7 +1059,15 @@ footer {
         left: 100px;
     }
     .bnr h1 {
-        font-size: 60px;
+        font-size: 75px;
+    }
+    .professional {
+        height: 450px;
+        width: 450px;
+    }
+    .professional .professional-img {
+        height: 450px;
+        width: 450px;
     }
     .scroller {
         height: 23px;
@@ -1094,6 +1104,14 @@ footer {
 @media (min-width: 1500px) {
     .scroller {
         margin-left: 600px;
+    }
+    .professional {
+        height: 500px;
+        width: 500px;
+    }
+    .professional .professional-img {
+        height: 500px;
+        width: 500px;
     }
     .casual {
         flex-basis: 40%;
