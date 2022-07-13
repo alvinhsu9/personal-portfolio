@@ -66,7 +66,7 @@ header .img-wrap {
 
 header .img-link {
     display: flex;
-    width: inherit;
+    width: fit-content;
     height: auto;
 }
 
